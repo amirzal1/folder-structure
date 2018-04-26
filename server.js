@@ -10,4 +10,4 @@ app.use(express.static(__dirname + "/public"));
 //     res.send({ message: 'welcome to praedictio server!' });
 // });
 
-app.listen(3001);
+app.listen(8000);
