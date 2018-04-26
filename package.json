@@ -1,0 +1,23 @@
+{
+  "name": "git_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+	"start": "npm run open", 
+	"open": "concurrently \"http-server -a localhost -p 3001\" \"start http://localhost:3001\""
+  },
+  "author": "“Ayeshmantha” <“akayeshmantha@gmail.com”>",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "http-server": "^0.11.1"
+  }
+}
